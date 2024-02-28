@@ -1,0 +1,34 @@
+Real Time Data Acquisition System Using Arduino.
+Acquiring data is one of the crucial part of any project. 
+Maybe its data from remote satellites or sensor data in a normal closed loop system. Real time data acquisition is a necessity. 
+This acquired data helps in planning the future or avoiding the mistakes done or just for monitoring purpose. 
+The data can be acquired from a physical system either by a wired or a wireless connection.
+
+Now to acquire the data we need a sensing element that can read the physical parameters and then process and covert that data into digital form. 
+This data will then be sent using the Serial port of the Arduino.
+
+
+This project is based on the Arduino Board. The main aim of this project is to collect real time data from the ultrasonic sensor and store it in an excel file. This is called data logging.
+
+The data from the Ultrasonic sensor will be logged into the excel file every time the push button is pressed. The reason of including the push button was to avoid the excess number of values. You can use any other sensor and collect as much as data you want (limit up to an excel column)
+
+Now in order to collect real time data into an excel file we need an application called PLQ-DAQ. This allows arduino to store the data in an excel sheet.
+
+
+I would highly recommend you to buy the components from UTSource.net . They provide high quality comonents at affordable rates. And they deliver it at your doorstep on time. They also provide PCB Service at affordable rates. Do check them out.
+
+The modules required to make this project are -
+
+Arduino Uno Board
+
+SR-04 Ultrasonic Sensor
+
+Push button
+
+Resistor 10K
+
+Breadboard
+
+Connecting wires
+
+Led (optional)
